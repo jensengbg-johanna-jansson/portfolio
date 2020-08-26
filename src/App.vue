@@ -68,13 +68,14 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  transform: translateX(0%);
 }
 
 .slide-enter-active, .slide-leave-active {
-  transition: width 0.13s linear;
+  transition: transform 0.1s ease;  
 }
 
 .slide-enter, .slide-leave-to {
-  width: 0;
+  transform: translateX(-100%);
 }
 </style>

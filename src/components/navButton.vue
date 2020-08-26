@@ -37,22 +37,20 @@ export default {
             width: 100%;
             height: 100%;
             background: #00ffe0;
-            transform: skewX(-25deg);
+            transform: translateX(-40px) skewX(-25deg);
             position: absolute;
             top: 0;
-            left: -15px;
-            transition: left 0.3s ease-out;
             z-index: -1;
         }
         .slide-enter-active, .slide-leave-active {
-            transition: left 0.3s ease-out;
+            transition: transform 0.2s ease-in-out;
         }
         .slide-enter, .slide-leave-to {
-            left: -100%;
+            transform: translateX(-130%) skewX(-25deg);
         }
 
         .main-nav-link {
-            transition: color 0.3s ease-out;
+            transition: color 0.2s ease-out;
             padding: 0 1.5rem;
             position: relative;
             overflow: hidden;
