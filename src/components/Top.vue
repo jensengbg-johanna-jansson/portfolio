@@ -4,7 +4,7 @@
             <article class="top-intro">
                 <h3 class="top-intro-phrase">Hi, I'm Johanna.</h3>
                 <h2 class="top-intro-title">Front end developer</h2>
-                <p class="top-intro-text">I am a 28 year old from Gothenburg. I study front end development, and am looking to try my wings in the real world.</p>
+                <p class="top-intro-text">I am a 28 year old from Gothenburg. I study front end development, and am looking for a new challenge outside the classroom.</p>
             </article>
         </div>
     </section>
@@ -34,16 +34,16 @@ export default {
             width: 150vw;
             display: flex;
             justify-content: flex-end;
+            align-items: center;
             transform: skewX(-35deg);
             position: absolute;
             left: -70%;
         }
         .top-intro {
             text-align: right;
-            padding: 20vh 0 0 2rem;
+            padding: 0 0 0 2rem;
             transform: skewX(35deg);
             position: absolute;
-            right: 10%;
 
             &-phrase {
                 color: #ffffff;
@@ -52,17 +52,19 @@ export default {
             }
             &-title {
                 color: #ffffff;
-                font-size: 1.6rem;
+                font-size: 2rem;
                 text-transform: uppercase;
                 margin-bottom: 0.5rem;
-                padding-right: 1.2rem;
+                padding-right: 2rem;
                 text-shadow: 1px 1px 0 rgba(50,8,77,0.5), 2px 2px 0 #00ffe0;
+                width: 250px;
+                display: inline-block;
             }
             &-text {
                 color: #ffffff;
                 text-align: left;
-                max-width: 300px;
-                padding-right: 1.2rem;
+                max-width: 220px;
+                padding-right: 2rem;
             }
         }
     }
@@ -73,7 +75,7 @@ export default {
                     font-size: 2rem;
                 }
                 &-title {
-                    font-size: 2rem;
+                    width: auto;
                 }
                 &-text {
                     font-size: 1.2rem;
@@ -87,11 +89,10 @@ export default {
 
             .top-container {
                 width: 100vw;
-                left: -35%;
+                left: -25%;
             }
             .top-intro {
                 max-width: 750px;
-                padding-top: 6rem;
                 right: 3%;
 
                 &-phrase {

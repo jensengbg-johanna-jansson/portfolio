@@ -49,7 +49,6 @@ export default {
             flex-wrap: wrap;
 
             &-item {
-                //border: 1px solid #00ffe0;
                 box-shadow: 2px 2px 0 #00ffe0, -1px -1px 0 #32084D, -2px -2px 0 #32084D, -3px -3px  0 #32084D, -4px -4px  0 #32084D;
                 border-radius: 50%;
                 font-size: 1rem;
@@ -68,7 +67,7 @@ export default {
     @media screen and (min-width: 720px) {
         .about {
             max-width: 1080px;
-            min-height: 75vh;
+            padding-bottom: 3.5rem;
 
             &-content {
                 display: flex;
@@ -82,6 +81,7 @@ export default {
             }
             &-competenses {
                 align-items: center;
+                max-width: 300px;
             }
         }
     }

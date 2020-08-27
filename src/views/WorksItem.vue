@@ -49,18 +49,13 @@ export default {
     methods: {
         findWorkItem() {
             const itemName = this.$route.params.id;
-            console.log(itemName);
             const item = this.vuexWorksData.find(obj => obj.name === itemName);
             this.workItem = item;
-            console.log(item);
         },
         workThumbnail(imgSize) {
             const path = "@/assets/thumb/";
             const filename = this.workItem.thumb + '_' + imgSize + '.png';
             const filePath = path + filename;
-
-            console.log(filePath);
-            //this.imgPaths = require(filePath);
 
             return filePath;
         },

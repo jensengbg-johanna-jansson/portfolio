@@ -45,7 +45,8 @@ export default {
     }
     @media screen and (min-width: 720px) {
         .works {
-            max-width: 1080px;
+            max-width: 2000px;
+            padding: 0 2rem;
         }
     }
 </style>
