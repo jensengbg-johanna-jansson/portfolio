@@ -33,7 +33,7 @@
             "img": ["airbean1"],
             "course": "JavaScript frameworks",
             "desc": "AirBean was a project where we, in a team of two, were to create a web application for a made-up service that delivers coffee with drones. We were provided with a design and an API to use on our site.",
-            "req": ["Build the web page following the design that was provided", "Should be a Single Page Aplication using vue-router", "Shoud use Vuex and a Vuex store"],
+            "req": ["Build the web page following the design that was provided", "Should be a Single Page Aplication using vue-router", "Should use Vuex and a Vuex store"],
             "thoughts": "This was a very good project for practicing teamwork. We worked in an organised way, starting of with creating a plan and project guide for what should be done and when it should be finished. During the project we communicated a lot, reporting our progress, what our next plan was and if we needed help. Thanks to our communication the project went very smoothly, and without stress.",
             "date": "2020-04-01",
             "tech": ["HTML", "CSS", "Vue"],
