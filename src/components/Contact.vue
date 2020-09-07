@@ -3,12 +3,12 @@
         <p class="contact-phrase">Like what you see?</p>
         <h2 class="contact-heading">Contact Me</h2>
         <p class="contact-text">joja92@hotmail.com</p>
-        <a class="contact-text" href="https://www.linkedin.com/in/johannajansson1/">LinkedIn</a>
+        <a class="contact-text contact-link" href="https://www.linkedin.com/in/johannajansson1/">LinkedIn</a>
     
         <div class="contact-works">
             <h3>Find my works on GitHub and CodePen</h3>
-            <a href="" class="contact-works-link"><img :src="require(`@/assets/github_logo.png`)" alt="Link to GitHub"></a>
-            <a href="" class="contact-works-link"><img :src="require(`@/assets/codepen_logo.png`)" alt="Link to Codepen"></a>
+            <a href="https://github.com/jensengbg-johanna-jansson" class="contact-works-link"><img :src="require(`@/assets/github_logo.png`)" alt="Link to GitHub"></a>
+            <a href="https://codepen.io/YonaJansson" class="contact-works-link"><img :src="require(`@/assets/codepen_logo.png`)" alt="Link to Codepen"></a>
         </div>
     </section>
 </template>
@@ -41,6 +41,12 @@ export default {
             color: #ffffff;
             font-size: 1.2rem;
         }
+        &-link {
+            transition: color .5s;  
+        }
+        &-link:hover {
+            color: #00ffe0;
+        }
         &-works {
             margin: 2rem 0;
             
@@ -50,8 +56,13 @@ export default {
             a:first-of-type {
                 margin-right: 2rem;
             }
+            &-link {
+                filter: saturate(0%);
+                transition: filter .5s;
+            }
             &-link:hover {
                 cursor: pointer;
+                filter: saturate(100%);
             }
         }           
 
