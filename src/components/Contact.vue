@@ -4,6 +4,12 @@
         <h2 class="contact-heading">Contact Me</h2>
         <p class="contact-text">joja92@hotmail.com</p>
         <a class="contact-text" href="https://www.linkedin.com/in/johannajansson1/">LinkedIn</a>
+    
+        <div class="contact-works">
+            <h3>Find my works on GitHub and CodePen</h3>
+            <a href="" class="contact-works-link"><img :src="require(`@/assets/github_logo.png`)" alt="Link to GitHub"></a>
+            <a href="" class="contact-works-link"><img :src="require(`@/assets/codepen_logo.png`)" alt="Link to Codepen"></a>
+        </div>
     </section>
 </template>
 
@@ -35,5 +41,19 @@ export default {
             color: #ffffff;
             font-size: 1.2rem;
         }
+        &-works {
+            margin: 2rem 0;
+            
+            h3 {
+                margin-bottom: 1rem;
+            }
+            a:first-of-type {
+                margin-right: 2rem;
+            }
+            &-link:hover {
+                cursor: pointer;
+            }
+        }           
+
     }
 </style>
