@@ -4,7 +4,7 @@
         <article class="about-content">
             <div class="about-content-info">
                 <h3 class="about-content-info-header">Front end developer with a passion for design</h3>
-                <p class="about-content-info-text">Since a young age I have had an interest in graphic design and by the end of junior high school I found an interest in web design. Since then I have studied web design in High school and spent my spare time on small hobby projects.</p>
+                <p class="about-content-info-text">Since a young age I have had an interest in graphic design and by the end of junior high school I found an interest in web design. Since then I have studied web design in high school and spent my spare time on small hobby projects.</p>
                 <p class="about-content-info-text">Today I am a student in the front end development program at Jensen Yrkeshhögkola. In less than a year I have further developed my skills in HTML, CSS, javascript and UX, as well as learnt Vue.js, basic NodeJs and how to make PWA's. </p>
             </div>
             <aside class="about-competenses">

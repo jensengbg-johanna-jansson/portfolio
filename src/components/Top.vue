@@ -4,7 +4,7 @@
             <article class="top-intro">
                 <h3 class="top-intro-phrase">Hi, I'm Johanna.</h3>
                 <h2 class="top-intro-title">Front end developer</h2>
-                <p class="top-intro-text">I am a 28 year old from Gothenburg. I study front end development, and am looking for a new challenge outside the classroom.</p>
+                <p class="top-intro-text">I am a front end developer with a passion for design and UX, and an ambition is to create nice looking, user friendly websites.</p>
             </article>
         </div>
     </section>
