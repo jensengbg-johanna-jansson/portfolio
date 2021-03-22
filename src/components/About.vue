@@ -8,8 +8,8 @@
                 <p class="about-content-info-text">Today I am a developer at FrontEdge IT, where I work with various technologies like React, Next.js, TypeScript, Cypress and many more.</p>
             </div>
             <aside class="about-competenses">
-                <p class="about-competenses-item">HTML</p>
-                <p class="about-competenses-item">CSS</p>
+                <p class="about-competenses-item">HTML/CSS</p>
+                <p class="about-competenses-item">React.js</p>
                 <p class="about-competenses-item">JavaScript</p>
                 <p class="about-competenses-item">Vue.js</p>
             </aside>
